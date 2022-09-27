@@ -1,5 +1,4 @@
 import copy
-
 import pandas as pd
 from painting_tools import Draw
 from wall_map import Mapping
@@ -42,7 +41,4 @@ if __name__ == '__main__':
     # 调用任务五方法
     task5_mapping(paths2, points2)
 
-    # 写数据
-    # print(points)
-    # pd.DataFrame(points).to_csv("./data/output/test.csv", index=None, header=None)
-    # points.to_csv("./data/output/test.csv", index=None)
+    print('任务处理结束，请在"./data/output/Mapping.csv"中查看输出结果')
